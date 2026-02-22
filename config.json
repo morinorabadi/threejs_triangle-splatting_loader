@@ -1,0 +1,50 @@
+{
+  "viewer": {
+    "renderMode": "triangles",
+    "antialiasing": true,
+    "pixelRatio": 1,
+    "backgroundColor": "#000000",
+    "enableStats": true
+  },
+  "camera": {
+    "fov": 45,
+    "near": 0.1,
+    "far": 1000,
+    "initialPosition": [0, 0, 3],
+    "autoFit": true
+  },
+  "controls": {
+    "enableRotate": true,
+    "rotateSpeed": 0.01,
+    "enableZoom": true,
+    "zoomSpeed": 0.1,
+    "enablePan": true,
+    "panSpeed": 0.5,
+    "autoRotate": false,
+    "autoRotateSpeed": 0
+  },
+  "lighting": {
+    "ambientLight": {
+      "color": "#ffffff",
+      "intensity": 1.0
+    },
+    "directionalLight": {
+      "color": "#ffffff",
+      "intensity": 0.5,
+      "position": [5, 10, 7]
+    }
+  },
+  "rendering": {
+    "wireframe": false,
+    "flatShading": true,
+    "doubleSide": true,
+    "vertexColors": true,
+    "transparent": true
+  },
+  "performance": {
+    "maxTriangles": 2000000,
+    "maxPoints": 6000000,
+    "enableLOD": false,
+    "enableFrustumCulling": false
+  }
+}
